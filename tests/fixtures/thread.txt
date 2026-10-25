@@ -1,0 +1,46 @@
+=== THREAD PARENT MESSAGE ===
+From: Slackbot (USLACKBOT)
+Time: 2026-10-16 14:29:07 +03
+Message TS: 1792150147.376979
+A huddle started
+Files: _headphones__Huddle_notes__10_16_26_in___C0C62C128D8_ (ID: F0C9VPDR93K, application/vnd.slack-docs, 5.4 KB)
+
+=== THREAD REPLIES (4 total) ===
+
+--- Reply 1 of 4 ---
+From: Haseeb Zafar (하시브 자파르) <u08czcgjw3e@must.company> (U08CZCGJW3E)
+Time: 2026-10-16 15:14:26 +03
+Message TS: 1792152866.303469
+Next Todo:
+1. Quality training by Ai agent. 
+2. Post an insight daily with the help of AI agent not by myself. 
+3. Give feedbacks to rest of the teams insights as well. 
+4. Work on my Agent to improve my AI workflow and less human interaction. 
+
+--- Reply 2 of 4 ---
+From: Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41)
+Time: 2026-10-16 15:15:51 +03
+Message TS: 1792152951.918429
+Next Todo:
+1. Learn More AI 
+2. Work alongside Arshmand to learn how to use the claude at its best. 
+3. POC of the product.
+4. Join Survive Failed Everyday Channel
+
+--- Reply 3 of 4 ---
+From: Slackbot (USLACKBOT)
+Time: 2026-10-16 15:17:12 +03
+Message TS: 1792153032.832219
+AI huddle notes are ready. Edit, share, assign action items, or just squirrel them away for later. :chipmunk: <https://mustcompany.slack.com/docs/T03G4CFLXPH/F0C9VPDR93K|View AI Notes>
+Files: _headphones__Huddle_notes__10_16_26_in___C0C62C128D8_ (ID: F0C9VPDR93K, application/vnd.slack-docs, 5.4 KB)
+
+--- Reply 4 of 4 ---
+From: Arshman Afzal (عرشمان افضل ) <u06fh6hrg1z@must.company> (U06FH6HRG1Z)
+Time: 2026-10-16 15:17:40 +03
+Message TS: 1792153060.598999
+Next Todo :
+
+1. Give Claude training to Iqbal.
+2. Evaluate his Claude responses and Claude prompts.
+3. Improve my Tech Level.
+4. Try making my own AI Agent.

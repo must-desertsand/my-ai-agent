@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template: scripts/install-launchd.sh fills in the absolute uv, repo and home paths.
+     Fri 17:00 in the Mac's local time, which must be Asia/Kuwait: sends the weekly metrics to Haseeb's self-DM.
+     This is its own job because a launchd plist runs one command; the insights plist runs `insights`.
+     A run missed while the Mac slept starts on wake. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.haseeb.agent.weekly</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__UV__</string>
+    <string>run</string>
+    <string>--project</string>
+    <string>__REPO__</string>
+    <string>haseeb-agent</string>
+    <string>weekly</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>__HOME__/.local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>17</integer><key>Minute</key><integer>0</integer></dict>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/haseeb-agent/weekly.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/Library/Logs/haseeb-agent/weekly.err.log</string>
+</dict>
+</plist>

@@ -1,0 +1,65 @@
+# Haseeb's Agent settings. Secrets (LITELLM_API_KEY) live in .env, never here.
+
+channel_id = "C0C62C128D8"      # #tf-leadership-q4-2026
+self_dm_id = "U08CZCGJW3E"      # self-DM channel id = Haseeb's user id
+self_dm_channel = "D08D9HFB8BB" # the same DM as a conversation id; reactions and uploads need this, not the U id
+haseeb_id = "U08CZCGJW3E"
+lion_id = "U03GRE909MJ"
+workspace_url = "https://mustcompany.slack.com"  # base for permalinks to our own posts
+slack_team_id = "T03G4CFLXPH"   # for the Mac banner's click action: slack://channel?team=<this>&id=<self_dm_channel>
+notify_enabled = true           # a Mac banner for each delivery to the DM (notify.py)
+tz = "Asia/Kuwait"              # UTC+3
+
+huddle_time = "14:30"
+insights_ready = "09:00"
+workdays = [0, 1, 2, 3, 4]      # Mon=0 .. Sun=6
+
+insight_min = 1
+insight_max = 3
+pass_score = 85                 # fixed bar, never lowered at runtime
+max_rewrites = 2
+dedupe_days = 30                # ideas: no repeat within 30 days
+
+todo_autopost_s = 120
+todo_predraft = "15:00"
+todo_cutoff = "15:25"
+todo_stale_min = 30
+
+feedback_include_lion = false
+
+# Before a feedback draft, look at the site or HTML demo the post links to: render it in headless Chrome (all traffic through
+# a filtering proxy that refuses private addresses) and have a vision model review it (site_review/).
+site_review_enabled = true
+site_review_daily_cap = 10      # reviews a day (one per site or attached file)
+# Networks a reviewed page may never reach, refused like private space. The review already refuses this Mac's own networks, every
+# address that is routed away from the default route (a VPN split tunnel) and all IPv6. It cannot learn what only the network behind
+# the DEFAULT ROUTE can reach, so list that here: the home or office network's PUBLIC IPv4 address (the router answers on it from
+# inside), public subnets that network keeps for itself (the provider's, an office's or a campus's own ranges), and the internal public
+# ranges of a full-tunnel VPN that takes the default route (or set site_review_enabled = false while on one). e.g. ["203.0.113.7/32"].
+# Keep this line here, above [models]: a line added at the end of the file lands in the last table and is silently ignored.
+site_review_refused_networks = []
+
+# Task 14: a PDF deck per insight, uploaded into its DM thread after the text (R44)
+decks_enabled = true
+codex_path = "/Users/cb/.nvm/versions/node/v24.21.0/bin/codex"   # not on launchd's PATH; falls back to `codex` on PATH
+chrome_path = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+# Designer decks: Codex designs the whole deck (fact-checked; the template deck is the fallback)
+deck_designer = true
+deck_models = ["gpt-6.1-sol", "gpt-6-astra"]   # fallback order; our runs ignore ~/.codex/config.toml
+deck_effort = "low"
+codex_version = "0.163.0"   # the read restriction is verified on this exact version; any other pauses Codex decks
+
+db_path = "data/agent.sqlite"
+dashboard_port = 8765          # the dashboard listens on 127.0.0.1 only
+
+# step -> ordered fallback list
+[models]
+research = ["claude:sonnet"]
+insight_writer = ["claude:sonnet", "litellm:kimi-k3"]
+judge = ["litellm:gemini/gemini-3.1-pro-preview", "litellm:kimi-k3"]
+feedback_writer = ["litellm:deepseek-v4-pro", "litellm:glm-5.3"]
+site_review = ["litellm:gemini/gemini-3.1-pro-preview", "litellm:gemini/gemini-3.5-flash"]   # read screenshots (vision)
+todo_writer = ["litellm:deepseek-v4.1-flash", "litellm:glm-5.3-flash"]
+summarize = ["litellm:deepseek-v4.1-flash", "litellm:gemini/gemini-3.5-flash"]
+embed = ["litellm:qwen3-embedding"]
+slack = ["claude:haiku"]

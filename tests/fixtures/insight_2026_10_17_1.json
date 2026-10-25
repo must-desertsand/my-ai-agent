@@ -1,0 +1,30 @@
+{
+ "title": "Gemini 4 Argon launch price ends Nov 30: cost per task about doubles",
+ "category": "AI",
+ "what_happened": "Google made Gemini 4 Argon available on 2026-10-13. The Gemini API went generally available around 10-14. Intro price is $2 per million input tokens and $10 per million output tokens. On Nov 30, 2026 the price rises to $4 and $20. Google says Argon ranks #1 on the Vals Index. It has a 1M-token limit and a 0.7% prompt-injection success rate on Gray Swan. These numbers come from Google. A newsletter relaying Artificial Analysis says cost per task is $1.99 now and about $3.98 after the intro price ends.",
+ "why_it_matters": "Clients will pick a model in the next weeks, and many will judge it on the launch price. That price is short. If a client builds on Argon and the bill doubles on Nov 30, the client blames the builder. That hurts quality, which is Lion's main theme. For MUST, this is a small paid product we could sell: a 1-week cost-per-task test. We run the client's real tasks on Argon, show the cost today and the cost after Nov 30, and compare with other models. The client pays first. It fits the move from selling hours to owning a repeatable product. It also gives the AX department rental a clear first deliverable. Note: the cost-per-task figures come from a newsletter, not from our own tests. We must measure on client tasks before we sell any number.",
+ "silicon_valley": "A top startup would turn this into a fixed-price product this week. Name it, set a price, and put a one-page offer on the site. The product is a 1-week audit that takes 20 real tasks from the client, runs them on Argon and two rivals, and returns cost per task, quality score, and the Nov 30 bill. First step this week: run our own 20 tasks on Argon and one rival, and write the result on one page. Measure: cost per task at both prices, and the number of clients we show it to by Friday. Goal: one paid audit signed before Nov 30.",
+ "evidence": [
+  {
+   "title": "Introducing Gemini 4 Argon (Google)",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+  },
+  {
+   "title": "AI This Week: Agents Get an Identity (Trew Knowledge)",
+   "url": "https://trewknowledge.com/2026/10/16/ai-this-week-agents-get-an-identity/"
+  },
+  {
+   "title": "AI News for October 16, 2026 - by Russ McGuire",
+   "url": "https://aisdg.substack.com/p/ai-news-for-october-16-2026"
+  }
+ ],
+ "not_verified": [
+  "Vals Index #1 rank, 1M-token limit and 0.7% Gray Swan rate are Google's own claims, not tested by us",
+  "Cost per task of $1.99 and about $3.98 comes from Artificial Analysis as relayed by a newsletter, not checked at the source",
+  "Exact GA date of the Gemini API (about 10-14) is approximate",
+  "Clients will choose models on launch pricing is an assumption from the research note, not confirmed",
+  "The AX department rental model (about KRW 10M per month) is MUST's own claim, not verified",
+  "Whether a paid 1-week audit would sell is untested"
+ ],
+ "read_min": 2
+}

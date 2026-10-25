@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template: scripts/install-launchd.sh fills in the absolute uv, repo and home paths. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.haseeb.agent.tick</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__UV__</string>
+    <string>run</string>
+    <string>--project</string>
+    <string>__REPO__</string>
+    <string>haseeb-agent</string>
+    <string>tick</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>__HOME__/.local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartInterval</key>
+  <integer>60</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <!-- I9: the tick may start a detached `haseeb-agent insights` catch-up; launchd must not kill it when the tick exits. -->
+  <key>AbandonProcessGroup</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/haseeb-agent/tick.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/Library/Logs/haseeb-agent/tick.err.log</string>
+</dict>
+</plist>

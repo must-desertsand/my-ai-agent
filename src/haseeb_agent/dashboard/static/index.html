@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="midnight">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer">
+<title>Haseeb's Agent</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/app.css">
+<script src="/theme.js"></script>
+<script type="module" src="/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="wrap" id="shell">
+  <header class="top">
+    <a class="brand" href="#/live" aria-label="Haseeb's Agent, Live">
+      <span class="logo" aria-hidden="true"></span>
+      <span class="brand-text"><b>Haseeb's Agent</b><small>Mission control · local only</small></span>
+    </a>
+    <div class="pills" id="pills" role="group" aria-label="Agent status"></div>
+    <button type="button" class="pause-btn" id="pause-btn" hidden><span class="ico i-pause" aria-hidden="true"></span><span class="pause-lbl">Pause</span></button>
+    <div class="theme-switch" role="group" aria-label="Theme">
+      <button type="button" class="ts-btn" data-theme-pick="midnight" aria-pressed="false" title="Midnight"><span class="ico ts-ico i-moon" aria-hidden="true"></span><span class="ts-lbl">Midnight</span></button>
+      <button type="button" class="ts-btn" data-theme-pick="daylight" aria-pressed="false" title="Daylight"><span class="ico ts-ico i-sun" aria-hidden="true"></span><span class="ts-lbl">Daylight</span></button>
+    </div>
+  </header>
+  <nav class="nav" aria-label="Pages">
+    <a href="#/live" data-route="live"><span class="nav-dot" aria-hidden="true"></span>Live</a>
+    <a href="#/history" data-route="history">History</a>
+    <a href="#/decks" data-route="decks">Decks</a>
+    <a href="#/logs" data-route="logs">Logs</a>
+    <a href="#/score" data-route="score">Score</a>
+    <a href="#/usage" data-route="usage">Usage</a>
+    <span class="nav-glider" aria-hidden="true"></span>
+  </nav>
+  <main id="view" tabindex="-1">
+    <div class="boot" aria-busy="true"><span class="spinner" aria-hidden="true"></span>Connecting to your agent…</div>
+  </main>
+</div>
+<div class="sr-only" id="announce" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">This dashboard needs JavaScript.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+ "type": "system",
+ "subtype": "init",
+ "permissionMode": "dontAsk",
+ "tools": [
+  "mcp__claude_ai_Slack__slack_read_channel"
+ ],
+ "mcp_servers": [
+  {
+   "name": "claude.ai Claude Docs",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Notion",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Slack",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Shopify",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Wix",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Figma",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Google Drive",
+   "status": "connected",
+   "source": "claudeai"
+  }
+ ],
+ "memory_paths": {
+  "auto": "/Users/cb/.claude/projects/-Users-cb--haseeb-agent-claude-home/memory/"
+ },
+ "claude_code_version": "2.1.308",
+ "model": "claude-haiku-5-5"
+}

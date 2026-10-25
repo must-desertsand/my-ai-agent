@@ -1,0 +1,207 @@
+Channel: #tf-leadership-q4-2026 (C0C62C128D8)
+
+=== Message from Slackbot (USLACKBOT) at 2026-10-16 14:29:07 +03 === 
+Message TS: 1792150147.376979
+A huddle started
+Thread: 4 replies (latest: 2026-10-16 15:17:40 +03)
+Files: _headphones__Huddle_notes__10_16_26_in___C0C62C128D8_ (ID: F0C9VPDR93K, application/vnd.slack-docs, 5.4 KB)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-16 13:37:57 +03 === 
+Message TS: 1792147077.827169
+Daily report · Friday 16 October - *Silicon Valley Standard* 
+
+<@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>, the silicon valley style report is attached . <http://reach.io|reach.io>
+
+1. *Learned:* I had a discussion today with <@U06G6BSQY64|Lebo, Godfrey Emori (레보, 갓프리 에모리)> around leadership and how a skilled Silicon Valley company thinks and works. I will follow four habits: evidence first, one owner and one date, ship small then improve, and care in how we talk.
+2. *Need:* Can i turn my command center into a product. It puts email, LinkedIn, WhatsApp and calls on one screen, aimed only at the ideal customer, with a web app and a mobile app. The working name is <http://reach.io|reach.io>, subject to availability.
+3. *Why this problem:* I have already built the command center and an n8n outreach workflow for my own use, so I know the pain first hand.
+4. *Next steps:* wireframes for five tabs, then a two week test on my own outreach, then the backend. I will ask <@U06FH6HRG1Z|Arshman Afzal (عرشمان افضل )>  and <@U08CZCGJW3E|Haseeb Zafar (하시브 자파르)> for UI, UX and backend help.
+All numbers on the screens are sample data for the mockup, not real results.
+
+Do you think this is the right kind of problem to build on?
+
+-Iqbal
+Thread: 1 replies (latest: 2026-10-16 14:17:37 +03)
+Reactions: eyes (1)
+Files: Daily report to Lion - insight - reach.io - lebo - silicon valley style (ID: F0C9WSHV7QU, application/pdf, 949.4 KB)
+
+=== Message from Slackbot (USLACKBOT) at 2026-10-15 14:29:20 +03 === 
+Message TS: 1792063760.122059
+A huddle started
+Thread: 4 replies (latest: 2026-10-15 15:24:06 +03)
+
+=== Message from Lion cho (조중현,Cho Chung Hyun) <u03gre909mj@must.company> (U03GRE909MJ) at 2026-10-14 17:05:43 +03 === 
+Message TS: 1791986743.219629
+<@U0A3S7LUZ41|Iqbal Qazi> today meeting feedback is 1/5
+Because topic made me talk old story 
+Not mean frontier 
+I couldn't failed make each member talk frontier conversation 
+
+Qazi kindly talk Lebo and how to resolve this problem 
+Thank to your effort and leading this channel 
+I respect you show your leadership  and potential from each members after improve environment 
+Reactions: saluting_face (1)
+
+=== Message from Slackbot (USLACKBOT) at 2026-10-14 14:29:52 +03 === 
+Message TS: 1791977392.711529
+A huddle started
+Thread: 1 replies (latest: 2026-10-14 15:04:03 +03)
+Files: _headphones__Huddle_notes__10_14_26_in___C0C62C128D8_ (ID: F0C95KMNGRY, application/vnd.slack-docs, 4.1 KB)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-14 14:26:46 +03 === 
+Message TS: 1791977206.751529
+<@U0A3S7LUZ41|Iqbal Qazi>: define problem from market, that is your talent. evidence
+
+sync: <@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>
+Files: WhatsApp shop assistant plan.pdf (ID: F0C95AY45J6, application/pdf, 1.9 MB)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-14 14:25:01 +03 === 
+Message TS: 1791977101.272349
+<@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)> How about a WhatsApp assistant for small shops that answers price and stock questions and takes orders in the customer's language (English, Korean, Urdu, Arabic)
+
+=== Message from Lion cho (조중현,Cho Chung Hyun) <u03gre909mj@must.company> (U03GRE909MJ) at 2026-10-13 15:48:32 +03 === 
+Message TS: 1791895712.594979
+Sync <@U08CZCGJW3E|Haseeb Zafar (하시브 자파르)> <@U06FH6HRG1Z|Arshman Afzal (عرشمان افضل )> <@U09PQN7BE2D|Zakir Ullah> 
+Reactions: white_check_mark (1)
+
+=== Message from Lion cho (조중현,Cho Chung Hyun) <u03gre909mj@must.company> (U03GRE909MJ) at 2026-10-13 15:48:14 +03 === 
+Message TS: 1791895694.617069
+To <@U0A3S7LUZ41|Iqbal Qazi> oh my god I totally missed 
+Whatever reason I couldn't managed my limited energy. It look baby level
+It is too shame I will recover this it may take 10x more energy but I will take
+Thread: 4 replies (latest: 2026-10-14 07:11:54 +03)
+Reactions: raised_hands (3)
+
+=== Message from Slackbot (USLACKBOT) at 2026-10-13 14:29:23 +03 === 
+Message TS: 1791890963.018059
+A huddle started
+Thread: 1 replies (latest: 2026-10-13 15:09:47 +03)
+Files: _headphones__Huddle_notes__10_13_26_in___C0C62C128D8_ (ID: F0C8N9Y54QK, application/vnd.slack-docs, 4.4 KB)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-13 13:49:38 +03 === 
+Message TS: 1791888578.549789
+<@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>
+*Daily report · Tuesday 13 October*
+
+*Daily insight* · Claude
+
+1. *Learned:* Claude works with skills, which are written instructions for one repeat job. I can embed them for my daily report, outreach rules, pipeline review and follow-ups.
+2. *Organised:* my command center is now one dashboard with my next steps, the right people to contact, the outreach cadence, and the latest news on funded companies.
+3. *Cost:* I will ask Arshman to help me reorganise my Claude setup so it uses fewer tokens.
+4. *Problems:* I am listing areas of concern in my process and will fix the smallest one first, then report the result.
+
+Files: Daily report to Lion - 13-10-2026.pdf (ID: F0C9NAQD8V6, application/pdf, 440.6 KB)
+
+=== Message from Lion cho (조중현,Cho Chung Hyun) <u03gre909mj@must.company> (U03GRE909MJ) at 2026-10-12 15:47:47 +03 === 
+Message TS: 1791809267.207699
+your career leverage
+<@U06FH6HRG1Z|Arshman Afzal (عرشمان افضل )>: teaching, because you get energy when speak.
+<@U08CZCGJW3E|Haseeb Zafar (하시브 자파르)>: resolve tech problem, and also find tech problem and expand problem stress, current high value problem is "quality"
+<@U0A3S7LUZ41|Iqbal Qazi>: define problem from market, that is your talent. evidence : tech seminar. It is talent tech man can't never.
+Thread: 7 replies (latest: 2026-10-14 14:25:01 +03)
+Reactions: raised_hands (3), white_check_mark (4), saluting_face (1)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-12 14:44:42 +03 === 
+Message TS: 1791805482.823799
+<https://app.notion.com/p/mustcompany/Events-in-Africa-Web3-blockchain-crypto-Bitcoin-stablecoin-DeFi-tokenization-and-related-dig-3e39c2703c3f8013b78ecc6cef17d2d1|app.notion.com/p/mustcompany/…/Events-in-Africa-Web3-blockchain-crypto-Bitcoin-stablecoin-DeFi-tokenization-and-related-dig…>
+
+=== Message from Slackbot (USLACKBOT) at 2026-10-12 14:29:10 +03 === 
+Message TS: 1791804550.656319
+A huddle started
+Thread: 1 replies (latest: 2026-10-12 15:49:37 +03)
+Files: _headphones__Huddle_notes__10_12_26_in___C0C62C128D8_ (ID: F0C83PUAHJT, application/vnd.slack-docs, 5.9 KB)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-12 13:06:18 +03 === 
+Message TS: 1791799578.647879
+<@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>
+*Daily report  - Monday 12 October 2026*
+
+*Daily insight* · Superpower Age · Monday 12 October
+
+*Core today:* the sign-up page. The 50 registrants can only be counted there, so everything else follows it.
+
+What moved today:
+1. <@U099LPY0E31|Piyush>  shared the first prototype of the event page. I approved the design with eight changes (country list, open the form, hide the countdown, speakers as "To be announced", private count view, one email per person, source tags, move to the new domain). I asked for two more versions with a brighter, more energetic look.
+2. Domain decided by Lion: superpower.globalmpc.tech. mustup.life is to be bought and revived. Piyush is checking it with devops.
+3. I met <@U06G6BSQY64|Lebo, Godfrey Emori (레보, 갓프리 에모리)> and <@U06P99V0DL0|Ibukun Ajewole Odeyemi (오데예미 이부쿤 아제올레)>  today and we exchanged ideas to reach more people: (a) LinkedIn communities where CEOs are active, (b) all company members posting from their own profiles plus direct messages to the right people, (c) events on Facebook and YouTube, and posts on Instagram, Twitter and other platforms.
+4. Budget discussed with <@U08NJ0H9LDB|Doreen Pareja> . I send the speaker details next. The CEO and the COO are confirmed as two of the four guest speakers.
+5. <@U070P2TRPQF|KyungJu Lee (이경주)> named <@U04FJ0JA0QK|Mohsin Zahid (محسن)>  as the backup for the live stream.
+
+*Blockers and owners:* sign-up page live date (Piyush, I asked for Wednesday 14 Oct), budget answer (Doreen), speaker shortlist (KyungJu), event day schedule (Danny).
+
+*Learning today*: a decision with one owner and one date moves faster than a long discussion.
+
+*Next action:* confirm the live date with Piyush and send Doreen the speaker details.
+
+<@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>, the full daily report PDF is attached (7 pages). I need three answers from you: the final country list, the exact registration deadline, and who owns the daily report.
+
+1. Unique qualifying total: none yet (form not open). Do not estimate.
+2. New today: 0.
+3. Countries: none yet.
+4. Gap to 50: 50.
+5. Evidence link: Jira BDD-210, task BDD-211, and the prototype page.
+6. Next action: confirm the live date with Piyush; send Doreen the speaker details.
+Reactions: eyes (1)
+Files: Daily report to Lion - Superpower Age 12th Oct 2-26.pdf (ID: F0C8MPHGVNG, application/pdf, 1.3 MB)
+
+=== Message from Lion cho (조중현,Cho Chung Hyun) <u03gre909mj@must.company> (U03GRE909MJ) at 2026-10-10 15:05:27 +03 === 
+Message TS: 1791633927.209729
+today is off. I think I missed to share. leadership is Mon to Fri
+purpose: recharge energy.
+sync <@U0A3S7LUZ41|Iqbal Qazi> <@U09PQN7BE2D|Zakir Ullah> <@U06FH6HRG1Z|Arshman Afzal (عرشمان افضل )> <@U08CZCGJW3E|Haseeb Zafar (하시브 자파르)>
+Reactions: white_check_mark (4)
+
+=== Message from Haseeb Zafar (하시브 자파르) <u08czcgjw3e@must.company> (U08CZCGJW3E) at 2026-10-10 13:55:37 +03 === 
+Message TS: 1791629737.945699
+to <@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>
+Idea: AI money copilot, like having your own financial advisor
+
+Sharing an idea I've had for a few months. Honest feedback welcome.
+
+*[Problem]*
+Your bank already knows everything about your money: salary, bills, habits. But the app only shows a balance and a list of transactions. It never answers the real question: can I afford this and still be fine until payday? So people guess, overspend, and stress.
+
+*[Idea]*
+An AI copilot that knows your money and talks to you like a personal advisor:
+1. Understand: spending by category, recurring bills, payday, where you overspend.
+2. Ask: plain-language questions instead of checking balances.
+3. Warn early: "At this pace, you run short 4 days before payday."
+
+*[Example]*
+Me: "My camera lens broke. Can I afford a $500 lens?"
+AI: "Not safely today. Payday is the 25th, 18 days away. After bills due before then ($430), your normal spending (~$450) and a $100 safety cushion, you have about $370 free. Buy it on the 25th, or buy now and spend about $7/day less until payday."
+
+*[How it's built]*
+The math is code, not the LLM: balance, upcoming bills, spending forecast, payday → safe-to-spend. The LLM only explains the result, and every answer shows its numbers.
+
+*[Two ways to launch]*
+1. Inside the bank: the bank licenses it per active user; customers get it free in their bank app. Live data, highest trust, and data never leaves the bank. But banks buy slowly.
+2. Standalone app: works with any bank, no bank deal needed. Data comes in without typing: bank SMS alerts (Android, with permission), monthly e-statement upload, quick-add for cash. Fast to launch, but we have to earn daily use.
+Proposal: launch the app first to get proof, then take the usage numbers to banks. The app becomes the demo that sells the bank version.
+
+*[Evidence]*
+• Standalone works: Cleo, an AI money app, passed $300M ARR (Dec 2025).
+• Banks want it: Bank of America's Erica has 24.6M active users (+23% YoY), and over half of its 3.6B interactions were proactive insights. But the customer version still isn't GenAI (Aug 2026).
+• Pakistan is opening: aik Connect launched an open banking gateway on Raast (Aug 2026), and SBP has licensed digital retail banks (Easypaisa Bank first).
+My bet: US giants build this in-house. Banks in Pakistan and Africa will license it once they see it working.
+Thread: 1 replies (latest: 2026-10-13 12:50:52 +03)
+Reactions: eyes (1)
+
+=== Message from Iqbal Qazi <u0a3s7luz41@must.company> (U0A3S7LUZ41) at 2026-10-09 15:13:08 +03 === 
+Message TS: 1791547988.450689
+Next Steps: Sync with
+1. Need to sync with <@U06P99V0DL0|Ibukun Ajewole Odeyemi (오데예미 이부쿤 아제올레)> and <@U06G6BSQY64|Lebo, Godfrey Emori (레보, 갓프리 에모리)> o 
+2. How to improve
+cc/sync: <@U03GRE909MJ|Lion cho (조중현,Cho Chung Hyun)>
+Thread: 4 replies (latest: 2026-10-10 12:15:10 +03)
+Reactions: raised_hands (2), white_check_mark (1)
+
+=== Message from Lion cho (조중현,Cho Chung Hyun) <u03gre909mj@must.company> (U03GRE909MJ) at 2026-10-09 14:30:36 +03 === 
+Message TS: 1791545436.418589
+turned on automatic AI huddle notes in this channel. Manage this setting in *Channel Settings*.
+
+=== Message from Slackbot (USLACKBOT) at 2026-10-09 14:29:50 +03 === 
+Message TS: 1791545390.706239
+A huddle started
+Thread: 2 replies (latest: 2026-10-09 15:15:04 +03)
+Files: _headphones__Huddle_notes__10_9_26_in___C0C62C128D8_ (ID: F0C7ZR7T1HU, application/vnd.slack-docs, 4.1 KB)

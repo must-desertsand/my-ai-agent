@@ -1,0 +1,68 @@
+{
+ "type": "system",
+ "subtype": "init",
+ "permissionMode": "dontAsk",
+ "tools": [
+  "CronCreate",
+  "CronDelete",
+  "CronList",
+  "DesignSync",
+  "EnterWorktree",
+  "ExitWorktree",
+  "ListAgents",
+  "ListMcpResourcesTool",
+  "Monitor",
+  "PushNotification",
+  "ReadMcpResourceDirTool",
+  "ReadMcpResourceTool",
+  "RemoteTrigger",
+  "ReportFindings",
+  "ScheduleWakeup",
+  "SendMessage",
+  "TaskStop",
+  "ToolSearch",
+  "Workflow"
+ ],
+ "mcp_servers": [
+  {
+   "name": "claude.ai Claude Docs",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Notion",
+   "status": "connected",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Slack",
+   "status": "pending",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Shopify",
+   "status": "pending",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Wix",
+   "status": "pending",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Figma",
+   "status": "pending",
+   "source": "claudeai"
+  },
+  {
+   "name": "claude.ai Google Drive",
+   "status": "connected",
+   "source": "claudeai"
+  }
+ ],
+ "memory_paths": {
+  "auto": "/Users/cb/.claude/projects/-Users-cb--haseeb-agent-claude-home/memory/"
+ },
+ "claude_code_version": "2.1.302",
+ "model": "claude-haiku-5-5"
+}

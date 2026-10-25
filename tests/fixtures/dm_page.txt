@@ -1,0 +1,19 @@
+Channel: DM (D08D9HFB8BB)
+
+=== Message from Haseeb Zafar (하시브 자파르) <u08czcgjw3e@must.company> (U08CZCGJW3E) at 2026-10-11 22:43:58 +03 === 
+Message TS: 1791747838.324239
+Note to self: item one, link <https://example.com/a|example.com/a>
+Note to self: item two, link <https://example.com/b|example.com/b>
+
+=== Message from Haseeb Zafar (하시브 자파르) <u08czcgjw3e@must.company> (U08CZCGJW3E) at 2026-10-02 08:44:43 +03 === 
+Message TS: 1790919883.881419
+Placeholder note, first line.
+
+  - indented line
+
+Placeholder note, last line after a blank line.
+
+=== Message from Haseeb Zafar (하시브 자파르) <u08czcgjw3e@must.company> (U08CZCGJW3E) at 2026-09-25 15:04:16 +03 === 
+Message TS: 1790337856.457009
+
+Attachment: [no preview available]

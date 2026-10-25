@@ -1,0 +1,15 @@
+.superpowers/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.db
+node_modules/
+__pycache__/
+.venv/
+out/
+logs/
+data/
+.pytest_cache/
+.worktrees/
+/config.toml

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src file: data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'">
+<title>{{doc_title}}</title>
+<style>
+@page { size: 1280px 720px; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 1280px; background: #3b1677; color: #fff;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", "Avenir Next", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision;
+}
+.slide {
+  position: relative; width: 1280px; height: 720px; overflow: hidden;
+  display: flex; flex-direction: column; padding: 60px 84px 52px;
+  background: linear-gradient(135deg,#5b21b6 0%,#db2777 55%,#f59e0b 100%);
+  break-after: page; page-break-after: always;
+}
+.slide:last-child { break-after: auto; page-break-after: auto; }
+/* A dark veil from the left keeps white text readable over the pink and amber end of the gradient. */
+.slide::before {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(100deg, rgba(30,8,64,.42) 0%, rgba(30,8,64,.22) 50%, rgba(30,8,64,0) 100%);
+}
+.slide::after {  /* soft light in the top-right corner */
+  content: ""; position: absolute; z-index: 0; width: 760px; height: 760px; right: -260px; top: -340px;
+  background: radial-gradient(circle, rgba(255,255,255,.20) 0%, rgba(255,255,255,0) 62%);
+}
+.slide > * { position: relative; z-index: 1; }
+.cover.photo { background: #1d0b3a url('{{cover_name}}') center / cover no-repeat; }
+.cover.photo::before {
+  background: linear-gradient(90deg, rgba(14,4,34,.74) 0%, rgba(14,4,34,.46) 55%, rgba(14,4,34,.12) 100%);
+}
+
+.top, .footer { display: flex; justify-content: space-between; align-items: center; }
+.kicker { font-size: 15px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; opacity: .92; }
+.page { font-size: 14px; font-weight: 700; letter-spacing: .14em; opacity: .7; }
+.footer { margin-top: 26px; font-size: 14px; font-weight: 700; letter-spacing: .08em; }
+.footer .kicker { max-width: 780px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; opacity: .75; }
+.brand { display: flex; align-items: center; gap: 10px; opacity: .92; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: linear-gradient(135deg,#fde68a,#f59e0b); }
+.rule { height: 2px; width: 72px; background: rgba(255,255,255,.85); border-radius: 2px; }
+
+.headline { font-weight: 900; text-transform: uppercase; letter-spacing: -.012em; line-height: .98; }
+
+/* cover */
+.cover-body { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 8px; }
+.chips { display: flex; gap: 12px; margin-bottom: 26px; }
+.chip {
+  font-size: 14px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase;
+  padding: 8px 16px; border-radius: 999px; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.38);
+}
+.cover-title { flex: none; height: 330px; max-width: 1040px; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; }
+.cover-title .headline { font-size: 92px; overflow-wrap: anywhere; }
+.price {
+  align-self: flex-start; max-width: 1040px; margin-top: 24px; padding: 10px 28px; border-radius: 999px;
+  font-size: 34px; font-weight: 900; line-height: 1.15; color: #3b1677; overflow-wrap: anywhere;
+  background: linear-gradient(135deg,#fde68a,#f59e0b);
+}
+.price:empty { display: none; }
+
+/* content slides */
+.content { flex: 1; min-height: 0; display: grid; grid-template-columns: 372px 1fr; gap: 56px; margin-top: 36px; }
+.side { display: flex; flex-direction: column; justify-content: space-between; min-height: 0; }
+.num { font-size: 132px; font-weight: 900; line-height: .8; letter-spacing: -.04em; color: rgba(255,255,255,.22); }
+.side .headline { font-size: 58px; overflow-wrap: anywhere; }
+.side .rule { margin-top: 26px; }
+.panel {
+  min-height: 0; display: flex; flex-direction: column; padding: 38px 42px; border-radius: 26px;
+  background: rgba(22,6,50,.34); border: 1px solid rgba(255,255,255,.22);
+}
+.fit { flex: 1; min-height: 0; overflow: hidden; overflow-wrap: anywhere; }
+.body { font-size: 29px; font-weight: 500; line-height: 1.42; white-space: pre-line; }
+.list { list-style: none; font-size: 25px; font-weight: 500; line-height: 1.35; }
+.list li { position: relative; padding-left: 34px; margin-bottom: .62em; }
+.list li::before {
+  content: ""; position: absolute; left: 0; top: .4em; width: .52em; height: .52em; border-radius: 50%;
+  background: linear-gradient(135deg,#fde68a,#f59e0b);
+}
+.src-host { display: block; font-size: .7em; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; opacity: .72; margin-top: 4px; }
+.tag {
+  display: inline-block; margin-right: 12px; padding: 3px 11px; border-radius: 999px; vertical-align: .16em;
+  font-size: .56em; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+  background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.34);
+}
+</style>
+</head>
+<body>
+
+<section class="slide cover {{cover_class}}">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">1 / 8</div></div>
+  <div class="cover-body">
+    <div class="chips"><span class="chip">{{market}}</span><span class="chip">{{read_min}} min read</span></div>
+    <div class="cover-title" data-fit data-min="34"><h1 class="headline">{{title}}</h1></div>
+    <div class="price">{{price}}</div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="rule"></div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">2 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">01</div><div><h2 class="headline">The idea</h2><div class="rule"></div></div></div>
+    <div class="panel"><div class="fit body" data-fit data-min="14">{{idea}}</div></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">3 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">02</div><div><h2 class="headline">Why now</h2><div class="rule"></div></div></div>
+    <div class="panel"><div class="fit body" data-fit data-min="14">{{why_now}}</div></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">4 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">03</div><div><h2 class="headline">Who pays, and how much</h2><div class="rule"></div></div></div>
+    <div class="panel"><div class="fit body" data-fit data-min="14">{{who_pays}}</div></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">5 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">04</div><div><h2 class="headline">How we build it with AI</h2><div class="rule"></div></div></div>
+    <div class="panel"><div class="fit body" data-fit data-min="14">{{build_with_ai}}</div></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">6 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">05</div><div><h2 class="headline">First step this week</h2><div class="rule"></div></div></div>
+    <div class="panel"><div class="fit body" data-fit data-min="14">{{first_step}}</div></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">7 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">06</div><div><h2 class="headline">Evidence</h2><div class="rule"></div></div></div>
+    <div class="panel"><ul class="fit list" data-fit data-min="12">{{evidence}}</ul></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<section class="slide">
+  <div class="top"><div class="kicker">{{kicker}}</div><div class="page">8 / 8</div></div>
+  <div class="content">
+    <div class="side"><div class="num">07</div><div><h2 class="headline">Risks · Not verified</h2><div class="rule"></div></div></div>
+    <div class="panel"><ul class="fit list" data-fit data-min="12">{{risks}}{{not_verified}}</ul></div>
+  </div>
+  <div class="footer"><div class="brand"><span class="dot"></span>Haseeb's Agent</div><div class="kicker">{{short_title}}</div></div>
+</section>
+
+<script>
+/* Shrink each [data-fit] box's font until its text fits; mark it if it still cannot (tests look for that). */
+(function () {
+  function over(el, target) {
+    if (target !== el) {  /* a bottom-aligned headline overflows upwards, which scrollHeight does not count */
+      return target.offsetHeight > el.clientHeight + 1 || target.scrollWidth > el.clientWidth + 1;
+    }
+    return el.scrollHeight > el.clientHeight + 1 || el.scrollWidth > el.clientWidth + 1;
+  }
+  var boxes = document.querySelectorAll('[data-fit]');
+  for (var i = 0; i < boxes.length; i++) {
+    var el = boxes[i], min = parseFloat(el.getAttribute('data-min')) || 12;
+    var target = el.firstElementChild && el.firstElementChild.tagName === 'H1' ? el.firstElementChild : el;
+    var size = parseFloat(getComputedStyle(target).fontSize);
+    while (over(el, target) && size > min) { size = Math.max(min, size - 1); target.style.fontSize = size + 'px'; }
+    if (over(el, target)) { el.setAttribute('data-overflow', '1'); }
+  }
+  document.documentElement.setAttribute('data-fitted', '1');
+})();
+</script>
+</body>
+</html>
